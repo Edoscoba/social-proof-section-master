@@ -1,0 +1,153 @@
+*{
+   box-sizing: border-box;
+}
+ 
+  html {
+  font-size: 16px;
+  font-family: 'League Spartan', sans-serif;
+  }
+    body {
+    
+    background: hsl(0, 0%, 100%);
+    width: 100%;
+    height: 100vh;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+    align-items: center;
+    
+    
+}  
+
+.social-proof{
+   margin: 0 auto;
+   margin-top: 3rem;
+   max-width: 1100px;
+   border-radius: 20px;
+   justify-content: center;
+   align-content: center;
+   width: 69rem;
+   height: 40rem;
+   background: hsl(0, 0%, 100%);
+   
+}
+
+.description{
+   
+  color: hsl(300, 43%, 22%);
+   margin-left: 3rem;
+   padding-top: 4rem;
+  
+ }
+   
+.service{
+   color: hsl(303, 10%, 53%);
+   margin-left: 3rem;
+  
+}
+.rated{
+ color: hsl(300, 43%, 22%);
+ position: absolute;
+ right: 3px; 
+
+              
+}
+.review{
+   position: relative;
+   bottom: 12rem;
+   right: 18rem;
+   
+   padding: 0.9rem;
+   background: hsl(300, 24%, 96%);
+}
+.guru{
+   position: relative;
+   bottom: 12rem;
+   right: 16rem;
+  
+   padding: 0.9rem;
+   background: hsl(300, 24%, 96%);
+}
+.best-tech{
+  
+   position: relative;
+   bottom: 12rem;
+   right: 13rem;
+   padding: 0.9rem;
+   background: hsl(300, 24%, 96%);
+}
+.comment{
+   display: flex;
+   margin: 2rem;
+   text-align: center;
+   
+   
+   
+}
+.colton{
+
+   width: 25rem;
+  
+ 
+    background: hsl(300, 43%, 22%);
+     color:  hsl(0, 0%, 100%);
+     position: relative;
+     top: 2rem;
+     border-radius: 10px;
+}
+.irene{
+  
+   
+   width: 25rem;
+   margin-left: 5px;
+   position: relative;
+   top: 3rem;
+   background: hsl(300, 43%, 22%);
+   color:  hsl(0, 0%, 100%);
+   border-radius: 10px;
+   
+}
+.anne{
+   border-radius: 10px;
+  width: 25rem;
+  margin-left: 4rem;
+  background: hsl(300, 43%, 22%);
+  color:  hsl(0, 0%, 100%);
+   position: relative;
+   top: 4rem;
+   Right: 3rem
+ 
+}
+
+.img-colton{
+height: 4.5vh;
+border-radius:100px;
+position: relative;
+top: 4rem;
+left: 3rem;
+
+z-index: 1;  
+}
+
+.img-irene{
+   height: 4.5vh;
+   border-radius: 100px;
+   position: relative;
+   top:  5rem;
+   left: 4rem;
+   z-index: 1;
+}
+.img-anne{
+   height: 4.5vh;
+   border-radius: 100px;
+   position: relative;
+   top: 6rem;
+   Left:4rem;
+   z-index: 1;
+}
+.buyer{
+   color: hsl(333, 80%, 67%);
+}
+.star{
+   color: orange;
+}
